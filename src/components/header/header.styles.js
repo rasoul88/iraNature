@@ -51,6 +51,7 @@ export const HeadingContainer = styled.h1`
     /* text-transform: uppercase; */
     backface-visibility: hidden;   
     margin-bottom: 6rem;  
+    
 
     span:first-of-type {
         display: block;
@@ -62,6 +63,10 @@ export const HeadingContainer = styled.h1`
         animation-timing-function: ease-out;
         text-align: right;
         backface-visibility: hidden; 
+
+        &::selection {
+            background-color: transparent;
+        }
         
         @media only screen and (max-width: 37.5em) {
             text-align: center;
@@ -78,6 +83,10 @@ export const HeadingContainer = styled.h1`
         text-align: left;
         backface-visibility: hidden;
 
+        &::selection {
+            background-color: transparent;
+        }
+        
         @media only screen and (max-width: 37.5em) {
             word-spacing: 1rem;
             text-align: center;

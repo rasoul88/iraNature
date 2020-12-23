@@ -35,6 +35,10 @@ export const LinksContainer = styled.ul `
         border-radius: 1rem;
         color: white;
 
+        &::selection {
+            background-color: transparent;
+        }
+
         &:hover {
             background-color: white;
             color: black;
@@ -44,12 +48,14 @@ export const LinksContainer = styled.ul `
             padding: 1rem 1rem;
         }
     }
+
 `;
 
 
 export const ContactContainer = styled.div `
     h3 {
         text-align: center;
+        color: gray;
     }
 `;
 
@@ -58,6 +64,10 @@ export const IconsContainer = styled.div `
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: 900px) {
+        transform : scale(1.1);
+    }
 `;
 
 export const SocialIconContainer = styled.a `

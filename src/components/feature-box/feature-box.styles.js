@@ -7,19 +7,20 @@ export const FeatureBoxContainer = styled.div `
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
-    transition: transform .3s;
+    transition: all .3s;
     backface-visibility: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     backface-visibility: hidden;
+    cursor: pointer;
 
     @media only screen and (max-width: 56.25em)  {
         padding: 2rem;
     }
 
     &:hover {
-        transform: translateY(-1.5rem) scale(1.03);
+        transform: scale(1.03);
     }   
 `;
 

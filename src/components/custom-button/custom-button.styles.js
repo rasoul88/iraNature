@@ -76,4 +76,7 @@ export const Button = styled.a`
 
     ${getanimationStyle}
 
+    &::selection {
+        background-color: transparent;
+    }
 `;

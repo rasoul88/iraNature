@@ -20,19 +20,9 @@ const Footer = () => (
         <ContactContainer>
             <h3>ما را در شبکه های اجتماعی دنبال کنید</h3>
             <IconsContainer>
-                <SocialIconContainer color="#3b5998">
-                    <svg>
-                        <use xlinkHref={`${Icons}#icon-facebook2`}/>
-                    </svg>
-                </SocialIconContainer>
                 <SocialIconContainer color="#00acee">
                     <svg>
                         <use xlinkHref={`${Icons}#icon-twitter`}/>
-                    </svg>
-                </SocialIconContainer>
-                <SocialIconContainer color="#ea4335">
-                    <svg>
-                        <use xlinkHref={`${Icons}#icon-google`}/>
                     </svg>
                 </SocialIconContainer>
                 <SocialIconContainer  color="#0e76a8">

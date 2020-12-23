@@ -85,7 +85,7 @@ export const BackgroundContainer = styled.div `
     right: 6.5rem;
     background-image: radial-gradient(rgba(24, 123, 205, 1),rgba(3, 37, 76, 1) 70%);
     z-index: 1000;
-    transition: transform .8s cubic-bezier(0.83, 0, 0.17, 1);
+    transition: all .8s cubic-bezier(0.83, 0, 0.17, 1);
     backface-visibility: none;
 
     ${props => props.toggle ? "transform: scale(80);" : null};
